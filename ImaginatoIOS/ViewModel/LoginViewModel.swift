@@ -21,6 +21,11 @@ class LoginViewModel {
     }
     var showAlert = PublishSubject<String>()
     var disposeBag = DisposeBag()
+    var loginService: LoginServiceType
+    
+    init(with service: LoginServiceType) {
+        loginService = service
+    }
     
     func isEmail(_ string: String) -> Bool {
         let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
@@ -33,7 +38,12 @@ class LoginViewModel {
     }
     
     func login() {
-        
+        loginService.login(userName: username.value,
+                           password: password.value).subscribe(onNext: { user in
+                            RealmHelper.shared.add(object: user)
+                           }, onError: { error in
+                            self.showAlert.onNext((error as? ApiError)?.message ?? "")
+                           }).disposed(by: disposeBag)
     }
     
 }
