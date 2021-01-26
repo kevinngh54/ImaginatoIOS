@@ -3,17 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		B3A7ADF49ECE082682EDEB1E /* Pods_ImaginatoIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9900FD9B7B247F20BDB6CD /* Pods_ImaginatoIOS.framework */; };
 		D6042A9925BFEC3A001DB025 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6042A9825BFEC3A001DB025 /* AppDelegate.swift */; };
 		D6042A9B25BFEC3A001DB025 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6042A9A25BFEC3A001DB025 /* SceneDelegate.swift */; };
-		D6042A9D25BFEC3A001DB025 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6042A9C25BFEC3A001DB025 /* ViewController.swift */; };
 		D6042AA025BFEC3A001DB025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6042A9E25BFEC3A001DB025 /* Main.storyboard */; };
 		D6042AA225BFEC3B001DB025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6042AA125BFEC3B001DB025 /* Assets.xcassets */; };
 		D6042AA525BFEC3B001DB025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6042AA325BFEC3B001DB025 /* LaunchScreen.storyboard */; };
+		D6042AAE25BFED4B001DB025 /* BaseMappableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6042AAD25BFED4B001DB025 /* BaseMappableModel.swift */; };
+		D6042AB125BFED52001DB025 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6042AB025BFED52001DB025 /* Constants.swift */; };
+		D6042AB525BFED6D001DB025 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6042AB325BFED6B001DB025 /* ApiError.swift */; };
+		D6042AB625BFED6D001DB025 /* BaseRxService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6042AB425BFED6C001DB025 /* BaseRxService.swift */; };
+		D6042AB925BFEE59001DB025 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6042AB825BFEE59001DB025 /* LoginViewController.swift */; };
+		D6042ABC25BFEE7E001DB025 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6042ABB25BFEE7E001DB025 /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,11 +28,16 @@
 		D6042A9525BFEC3A001DB025 /* ImaginatoIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImaginatoIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6042A9825BFEC3A001DB025 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6042A9A25BFEC3A001DB025 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D6042A9C25BFEC3A001DB025 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D6042A9F25BFEC3A001DB025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6042AA125BFEC3B001DB025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6042AA425BFEC3B001DB025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6042AA625BFEC3B001DB025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6042AAD25BFED4B001DB025 /* BaseMappableModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseMappableModel.swift; sourceTree = "<group>"; };
+		D6042AB025BFED52001DB025 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D6042AB325BFED6B001DB025 /* ApiError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		D6042AB425BFED6C001DB025 /* BaseRxService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRxService.swift; sourceTree = "<group>"; };
+		D6042AB825BFEE59001DB025 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D6042ABB25BFEE7E001DB025 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +66,6 @@
 				31E38660C4EA2CCECBB0327F /* Pods-ImaginatoIOS.debug.xcconfig */,
 				848C9115231C24E290381E9E /* Pods-ImaginatoIOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,15 +90,61 @@
 		D6042A9725BFEC3A001DB025 /* ImaginatoIOS */ = {
 			isa = PBXGroup;
 			children = (
+				D6042AB225BFED60001DB025 /* Network */,
+				D6042AAF25BFED52001DB025 /* Constants */,
+				D6042AAC25BFED2E001DB025 /* Model */,
+				D6042AB725BFEE59001DB025 /* Controller */,
+				D6042ABA25BFEE7E001DB025 /* ViewModel */,
 				D6042A9825BFEC3A001DB025 /* AppDelegate.swift */,
 				D6042A9A25BFEC3A001DB025 /* SceneDelegate.swift */,
-				D6042A9C25BFEC3A001DB025 /* ViewController.swift */,
 				D6042A9E25BFEC3A001DB025 /* Main.storyboard */,
 				D6042AA125BFEC3B001DB025 /* Assets.xcassets */,
 				D6042AA325BFEC3B001DB025 /* LaunchScreen.storyboard */,
 				D6042AA625BFEC3B001DB025 /* Info.plist */,
 			);
 			path = ImaginatoIOS;
+			sourceTree = "<group>";
+		};
+		D6042AAC25BFED2E001DB025 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6042AAD25BFED4B001DB025 /* BaseMappableModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D6042AAF25BFED52001DB025 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D6042AB025BFED52001DB025 /* Constants.swift */,
+			);
+			name = Constants;
+			path = ../../TestLogin/TestLogin/Constants;
+			sourceTree = "<group>";
+		};
+		D6042AB225BFED60001DB025 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D6042AB325BFED6B001DB025 /* ApiError.swift */,
+				D6042AB425BFED6C001DB025 /* BaseRxService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D6042AB725BFEE59001DB025 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D6042AB825BFEE59001DB025 /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D6042ABA25BFEE7E001DB025 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D6042ABB25BFEE7E001DB025 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,9 +262,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6042A9D25BFEC3A001DB025 /* ViewController.swift in Sources */,
+				D6042AB125BFED52001DB025 /* Constants.swift in Sources */,
+				D6042AAE25BFED4B001DB025 /* BaseMappableModel.swift in Sources */,
+				D6042AB625BFED6D001DB025 /* BaseRxService.swift in Sources */,
+				D6042AB925BFEE59001DB025 /* LoginViewController.swift in Sources */,
+				D6042ABC25BFEE7E001DB025 /* LoginViewModel.swift in Sources */,
 				D6042A9925BFEC3A001DB025 /* AppDelegate.swift in Sources */,
 				D6042A9B25BFEC3A001DB025 /* SceneDelegate.swift in Sources */,
+				D6042AB525BFED6D001DB025 /* ApiError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
