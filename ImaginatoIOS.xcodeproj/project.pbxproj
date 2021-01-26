@@ -9,12 +9,9 @@
 /* Begin PBXBuildFile section */
 		B3A7ADF49ECE082682EDEB1E /* Pods_ImaginatoIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9900FD9B7B247F20BDB6CD /* Pods_ImaginatoIOS.framework */; };
 		D6042A9925BFEC3A001DB025 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6042A9825BFEC3A001DB025 /* AppDelegate.swift */; };
-		D6042A9B25BFEC3A001DB025 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6042A9A25BFEC3A001DB025 /* SceneDelegate.swift */; };
-		D6042AA025BFEC3A001DB025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6042A9E25BFEC3A001DB025 /* Main.storyboard */; };
 		D6042AA225BFEC3B001DB025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6042AA125BFEC3B001DB025 /* Assets.xcassets */; };
 		D6042AA525BFEC3B001DB025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6042AA325BFEC3B001DB025 /* LaunchScreen.storyboard */; };
 		D6042AAE25BFED4B001DB025 /* BaseMappableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6042AAD25BFED4B001DB025 /* BaseMappableModel.swift */; };
-		D6042AB125BFED52001DB025 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6042AB025BFED52001DB025 /* Constants.swift */; };
 		D6042AB525BFED6D001DB025 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6042AB325BFED6B001DB025 /* ApiError.swift */; };
 		D6042AB625BFED6D001DB025 /* BaseRxService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6042AB425BFED6C001DB025 /* BaseRxService.swift */; };
 		D6042AB925BFEE59001DB025 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6042AB825BFEE59001DB025 /* LoginViewController.swift */; };
@@ -28,6 +25,8 @@
 		D6042ACE25BFEF1B001DB025 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6042ACB25BFEF1B001DB025 /* UIViewController+Extensions.swift */; };
 		D6042ACF25BFEF1B001DB025 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6042ACC25BFEF1B001DB025 /* String+Extensions.swift */; };
 		D6042AD025BFEF1B001DB025 /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6042ACD25BFEF1B001DB025 /* RealmHelper.swift */; };
+		D6042AD325C005C8001DB025 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6042AD225C005C8001DB025 /* Constants.swift */; };
+		D6042AD625C005D8001DB025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6042AD425C005D8001DB025 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,13 +35,10 @@
 		CB9900FD9B7B247F20BDB6CD /* Pods_ImaginatoIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImaginatoIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6042A9525BFEC3A001DB025 /* ImaginatoIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImaginatoIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6042A9825BFEC3A001DB025 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D6042A9A25BFEC3A001DB025 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D6042A9F25BFEC3A001DB025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6042AA125BFEC3B001DB025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6042AA425BFEC3B001DB025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6042AA625BFEC3B001DB025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6042AAD25BFED4B001DB025 /* BaseMappableModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseMappableModel.swift; sourceTree = "<group>"; };
-		D6042AB025BFED52001DB025 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D6042AB325BFED6B001DB025 /* ApiError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
 		D6042AB425BFED6C001DB025 /* BaseRxService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRxService.swift; sourceTree = "<group>"; };
 		D6042AB825BFEE59001DB025 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +52,8 @@
 		D6042ACB25BFEF1B001DB025 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		D6042ACC25BFEF1B001DB025 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		D6042ACD25BFEF1B001DB025 /* RealmHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
+		D6042AD225C005C8001DB025 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D6042AD525C005D8001DB025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,17 +106,16 @@
 		D6042A9725BFEC3A001DB025 /* ImaginatoIOS */ = {
 			isa = PBXGroup;
 			children = (
+				D6042AD125C005C8001DB025 /* Constants */,
 				D6042ACA25BFEF1B001DB025 /* Utils */,
 				D6042AC325BFEEE6001DB025 /* CustomView */,
 				D6042AB225BFED60001DB025 /* Network */,
-				D6042AAF25BFED52001DB025 /* Constants */,
 				D6042AAC25BFED2E001DB025 /* Model */,
 				D6042AB725BFEE59001DB025 /* Controller */,
 				D6042ABA25BFEE7E001DB025 /* ViewModel */,
 				D6042A9825BFEC3A001DB025 /* AppDelegate.swift */,
-				D6042A9A25BFEC3A001DB025 /* SceneDelegate.swift */,
-				D6042A9E25BFEC3A001DB025 /* Main.storyboard */,
 				D6042AA125BFEC3B001DB025 /* Assets.xcassets */,
+				D6042AD425C005D8001DB025 /* Main.storyboard */,
 				D6042AA325BFEC3B001DB025 /* LaunchScreen.storyboard */,
 				D6042AA625BFEC3B001DB025 /* Info.plist */,
 			);
@@ -132,15 +129,6 @@
 				D6042AC125BFEEDE001DB025 /* LoginModel.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		D6042AAF25BFED52001DB025 /* Constants */ = {
-			isa = PBXGroup;
-			children = (
-				D6042AB025BFED52001DB025 /* Constants.swift */,
-			);
-			name = Constants;
-			path = ../../TestLogin/TestLogin/Constants;
 			sourceTree = "<group>";
 		};
 		D6042AB225BFED60001DB025 /* Network */ = {
@@ -188,6 +176,14 @@
 				D6042ACD25BFEF1B001DB025 /* RealmHelper.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		D6042AD125C005C8001DB025 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D6042AD225C005C8001DB025 /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,7 +249,7 @@
 				D6042AA525BFEC3B001DB025 /* LaunchScreen.storyboard in Resources */,
 				D6042AA225BFEC3B001DB025 /* Assets.xcassets in Resources */,
 				D6042AC825BFEEE6001DB025 /* CommonTextField.xib in Resources */,
-				D6042AA025BFEC3A001DB025 /* Main.storyboard in Resources */,
+				D6042AD625C005D8001DB025 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,11 +303,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6042AC925BFEEE6001DB025 /* CommonTextField.swift in Sources */,
-				D6042AB125BFED52001DB025 /* Constants.swift in Sources */,
 				D6042AAE25BFED4B001DB025 /* BaseMappableModel.swift in Sources */,
 				D6042AB625BFED6D001DB025 /* BaseRxService.swift in Sources */,
 				D6042AC225BFEEDE001DB025 /* LoginModel.swift in Sources */,
 				D6042ABF25BFEED7001DB025 /* LoginImaginatoService.swift in Sources */,
+				D6042AD325C005C8001DB025 /* Constants.swift in Sources */,
 				D6042AB925BFEE59001DB025 /* LoginViewController.swift in Sources */,
 				D6042ABC25BFEE7E001DB025 /* LoginViewModel.swift in Sources */,
 				D6042A9925BFEC3A001DB025 /* AppDelegate.swift in Sources */,
@@ -320,7 +316,6 @@
 				D6042ACE25BFEF1B001DB025 /* UIViewController+Extensions.swift in Sources */,
 				D6042AC725BFEEE6001DB025 /* CustomView.swift in Sources */,
 				D6042AD025BFEF1B001DB025 /* RealmHelper.swift in Sources */,
-				D6042A9B25BFEC3A001DB025 /* SceneDelegate.swift in Sources */,
 				D6042AB525BFED6D001DB025 /* ApiError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,20 +323,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D6042A9E25BFEC3A001DB025 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D6042A9F25BFEC3A001DB025 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D6042AA325BFEC3B001DB025 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D6042AA425BFEC3B001DB025 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D6042AD425C005D8001DB025 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6042AD525C005D8001DB025 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -397,7 +392,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -451,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -467,6 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M46AU3YMQ;
 				INFOPLIST_FILE = ImaginatoIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -485,6 +481,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M46AU3YMQ;
 				INFOPLIST_FILE = ImaginatoIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
